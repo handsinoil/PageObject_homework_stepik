@@ -1,6 +1,5 @@
 import pytest
 import time
-
 from pages.product_page import ProductPage
 from pages.cart_page import CartPage
 from pages.login_page import LoginPage
