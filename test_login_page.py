@@ -2,6 +2,7 @@ from pages.login_page import LoginPage
 
 LOGIN_PAGE = "http://selenium1py.pythonanywhere.com/ru/accounts/login/"
 
+
 def test_guest_should_see_login_in_url(browser):
     link = LOGIN_PAGE
     page = LoginPage(browser, link)
